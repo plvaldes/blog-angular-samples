@@ -18,4 +18,8 @@ export class CounterService {
   public get count(): number {
     return this._count;
   }
+
+  public increment(): void {
+    this._count++;
+  }
 }
