@@ -13,7 +13,6 @@ import { CounterService } from 'src/app/services/counter.service';
   imports: [
     CommonModule,
     Module1RoutingModule
-  ],
-  providers: [CounterService]
+  ]
 })
 export class Module1Module { }
