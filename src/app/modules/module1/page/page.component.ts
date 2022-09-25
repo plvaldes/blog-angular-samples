@@ -14,6 +14,6 @@ export class PageComponent implements OnInit {
   }
 
   incrementCounter(): void {
-    this.counterService.count++;
+    this.counterService.increment();
   }
 }
